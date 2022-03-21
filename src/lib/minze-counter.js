@@ -6,19 +6,19 @@ export class MinzeCounter extends MinzeElement {
   increaseCount = () => this.count++
 
   html = () => `
-    <minze-logo></minze-logo>
+    
 
     <div class="text">
-      Hello Minze!
+     Teste!!!
     </div>
 
     <div class="count">
-      <span>Count is:</span>
+      <span>Contagem é:</span>
       ${this.count}
     </div>
 
     <minze-button class="button">
-      Click Me
+      Clique aqui!!!
     </minze-button>
   `
 
